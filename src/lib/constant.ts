@@ -176,3 +176,11 @@ export const CONNECTIONS : Connection[] = [
     slackSpecial: true,
   },
 ]
+export const NavLinks=[
+  {name:'Products',href:"#"},
+  {name:'Pricing',href:"#"},
+  {name:'Client',href:"#"},
+  {name:'Resource',href:"#"},
+  {name:'Documentation',href:"#"},
+  {name:'Enterprise',href:"#"},
+]

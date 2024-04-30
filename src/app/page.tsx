@@ -7,10 +7,8 @@ import Navbar from "@/components/global/navbar";
 import { Button } from "@/components/ui/button";
 import { clients, products } from "@/lib/constant";
 import { CheckIcon } from "lucide-react";
-import Image from "next/image";
 export default function Home() {
   return (
-    
     <main className="flex items-center justify-center flex-col">
       <Navbar/>
       <section className="h-screen w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex flex-col items-center  antialiased">
@@ -33,7 +31,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <InfiniteMovingCards className="md:mt-[18rem] mt-[-100px]" direction="right" speed="slow" items={clients}/> 
+      <InfiniteMovingCards className="md:mt-[18rem] mt-[-100px]" direction="right"  speed="slow" items={clients} /> 
       <section>
         <HeroParallax products={products}></HeroParallax> 
       </section>

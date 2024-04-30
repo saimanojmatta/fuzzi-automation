@@ -54,7 +54,7 @@ const Settings =async (props: Props) => {
             <h2 className="text-2xl font-bold">User Profile</h2>
             <p className="text-base text-white/50">Add or update your information</p>
         </div>
-        <div className="flex flex-col gap-4 ml-8 ">
+        <div className="flex flex-col gap-4 ml-8  ">
         <ProfilePicture
          onDelete={removeProfileImage}
          userImage={user?.profileImage|| ''}

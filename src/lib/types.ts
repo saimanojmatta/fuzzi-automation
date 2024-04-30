@@ -2,7 +2,7 @@ import { ConnectionProviderProps } from '@/Providers/connection-provider'
 import {z} from 'zod'
 export const EditUserProfileSchema=z.object({
     email:z.string().email('Required'),
-    name:z.string().min(1,'Required'),
+    name:z.string().min(1,{message:'username must be at least 2 characters.'}),
 })
 export const WorkflowFormSchema = z.object({
     name: z.string().min(1, 'Required'),

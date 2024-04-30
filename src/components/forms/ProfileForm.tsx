@@ -64,12 +64,10 @@ const ProfileForm = ({user,onUpdate}: Props) => {
           ):(
             "Save User Settings"
           )}
-          
           </Button> 
-
       </form>
-
     </Form>
+    
   )
 }
 export default ProfileForm
